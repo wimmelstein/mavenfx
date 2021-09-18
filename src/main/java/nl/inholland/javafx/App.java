@@ -8,17 +8,17 @@ import javafx.stage.Stage;
 
 public class App extends Application {
     @Override
-    public void start(Stage stage) throws Exception {
-        stage.setHeight(600);
-        stage.setWidth(800);
-        stage.setTitle("Inholland JavaFX Starter Project");
+    public void start(Stage window) throws Exception {
+        window.setHeight(600);
+        window.setWidth(800);
+        window.setTitle("Inholland JavaFX Starter Project");
 
         BorderPane pane = new BorderPane();
         Label hello = new Label("Hello World");
         pane.setCenter(hello);
 
         Scene scene = new Scene(pane);
-        stage.setScene(scene);
-        stage.show();
+        window.setScene(scene);
+        window.show();
     }
 }
