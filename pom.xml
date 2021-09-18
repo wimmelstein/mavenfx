@@ -13,8 +13,18 @@
         <maven.compiler.target>11</maven.compiler.target>
         <javafx.version>17</javafx.version>
     </properties>
+
+    <developers>
+        <developer>
+            <name>Wim Wiltenburg</name>
+            <email>willem.wiltenburg@inholland.nl</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx</artifactId>
