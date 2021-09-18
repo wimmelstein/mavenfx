@@ -11,7 +11,8 @@ Instructions:
 1. Fork this project (top right corner, click Fork - This creates a new 
    repository in your own github account)
 2. Clone your new repo
-3. Open up the Maven tab (on the right side of your screen)
-4. Perform: LifeCycle > clean + install
-5. Perform: Plugins > javafx > javafx:run
-6. Customize to your own needs
+3. Move the file src/main/resources/settings.xml to %HOMEPATH%/.m2 (yes with the dot)   
+4. Open up the Maven tab (on the right side of your screen)
+5. Perform: LifeCycle > clean + install
+6. Perform: Plugins > javafx > javafx:run
+7. Customize to your own needs
