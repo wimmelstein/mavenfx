@@ -65,6 +65,7 @@
     </dependencies>
 
     <build>
+        <!-- TODO: create runnable jar -->
         <plugins>
             <plugin>
                 <groupId>org.openjfx</groupId>
