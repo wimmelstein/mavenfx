@@ -10,7 +10,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
@@ -70,14 +69,14 @@ public class App extends Application {
 
                 for(char c : chars){
 
-                    // making 4 criterias
+                    // making 4 criterias for pass
                     if (passwordField.getText().length() >= 8){
                         validLength = true;
                     }
-                    if(Character.isDigit(c) == true){
+                    if(Character.isDigit(c)){
                         hasDigit = true;
                     }
-                    if(Character.isLetter(c) == true){
+                    if(Character.isLetter(c)){
                         hasChar = true;
                     }
 
@@ -87,8 +86,8 @@ public class App extends Application {
                         hasSpecialChar = true;
                     }
 
-                    // checking the four criterias
-                    if (((validLength == true) && (hasChar == true) && (hasDigit == true) && (hasSpecialChar == true))){
+                    // checking the four criterias for password
+                    if (((validLength) && (hasChar) && (hasDigit) && (hasSpecialChar))){
                         button.setVisible(true);
                     }
                     else{
